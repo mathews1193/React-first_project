@@ -1,0 +1,32 @@
+.NavBar{
+    background-color: #333;
+}
+.links{  
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+    font-size: 20px;
+}
+
+.nav{
+    float:left;
+    display:block;
+    padding: 35px;
+}
+.btn-signup{
+    background-color:green;
+    border: 2px solid whitesmoke;
+    border-radius: 30%;
+    float:left;
+    height: 1px;
+    width:80px;
+    display:block;
+    margin-top:20px;
+    margin-left:70px;
+    padding: 30px;
+    text-align: center;
+
+}
