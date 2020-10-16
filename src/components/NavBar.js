@@ -1,8 +1,10 @@
 import React from 'react';
 import './stylesheets/NavBar.css';
 
-function NavBar(){
-    return (
+class NavBar extends React.Component{
+
+    render(){
+        return (
         <nav className='NavBar'>
             <ul className='links'>
                 <li className="nav">Sous Chef</li>
@@ -14,6 +16,8 @@ function NavBar(){
                 <li className="btn-signup">Sign Up</li>
             </ul>
         </nav>
-    )
+        )
+    }
+    
 }
 export default NavBar
