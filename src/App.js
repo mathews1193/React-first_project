@@ -4,10 +4,12 @@ import NavBar from './components/NavBar';
 import './App.css';
 import Recipe from './components/Recipe';
 import RecipeData from './components/RecipeData';
+import { render } from '@testing-library/react';
 
-function App() {
+class App extends React.Component {
 
-  const recipeComponents = RecipeData.map(recipes =>
+  render(){
+     const recipeComponents = RecipeData.map(recipes =>
     <Recipe recipe={recipes}/>)
 
   return (
@@ -25,7 +27,9 @@ function App() {
         <Footer/>
     </div>
     
-  )
+   )
+  }
+ 
 }
 
 export default App;
