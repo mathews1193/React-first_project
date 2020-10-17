@@ -20,7 +20,7 @@ class MyInfor extends React.Component {
     }
     return ( 
            <div className="todo-list">
-              <h1>You are currently logged {result}</h1>
+              <h2>You are currently logged {result}</h2>
           </div>
             )
     }
