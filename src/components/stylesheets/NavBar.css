@@ -1,5 +1,8 @@
 .NavBar{
     background-color: #333;
+    position: fixed;
+    width:100%;
+    top:0;
 }
 .links{  
     text-align: center;

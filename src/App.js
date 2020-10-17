@@ -16,12 +16,13 @@ class App extends React.Component {
     <div>
       <div className="container">
         <NavBar/>
-         {/* <div className="recipe-list">
-            {recipeComponents} </div>*/}
+         {/* */}
             <div className="container-todo">
               <MyInfor/> 
             </div>
-          
+          <div className="recipe-list">
+            {recipeComponents} 
+          </div>
       </div>
         <Footer/>
     </div>

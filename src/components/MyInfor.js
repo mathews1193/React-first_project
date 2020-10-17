@@ -13,7 +13,7 @@ class MyInfor extends React.Component {
   render(){
     let result;
     
-    if (this.state.isLoggedIn === true){
+    if (this.state.isLoggedIn){
       result ="in"
     } else {
       result = "out"
