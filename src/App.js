@@ -8,8 +8,14 @@ import MyInfor from './components/MyInfor';
 
 class App extends React.Component {
 
+  constructor(){
+    super();
+    this.state = {
+      recipe:RecipeData
+    }
+  }
   render(){
-     const recipeComponents = RecipeData.map(recipes =>
+     const recipeComponents = this.state.recipe.map(recipes =>
     <Recipe recipe={recipes}/>)
 
   return (
