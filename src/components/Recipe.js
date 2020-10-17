@@ -3,6 +3,9 @@ import './stylesheets/Recipes.css';
 
 class Recipe extends React.Component {
 
+    constructor(){
+        super();
+    }
     render(){
         return(
         <div className="recipe">

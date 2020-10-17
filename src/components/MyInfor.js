@@ -3,6 +3,10 @@ import "./stylesheets/MyInfor.css";
 
 class MyInfor extends React.Component {
 
+  constructor(){
+    super();
+}
+
   render(){
     return ( 
            <div className="todo-list">

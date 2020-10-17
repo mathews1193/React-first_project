@@ -7,6 +7,10 @@ import RecipeData from './components/RecipeData';
 
 class App extends React.Component {
 
+  constructor(){
+    super();
+}
+
   render(){
      const recipeComponents = RecipeData.map(recipes =>
     <Recipe recipe={recipes}/>)

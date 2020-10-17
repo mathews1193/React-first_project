@@ -3,6 +3,9 @@ import './stylesheets/Footer.css';
 
 class Footer extends React.Component {
     
+    constructor(){
+        super();
+    }
     render(){
         const name = "Sous Chef";
     const owner = "Donald Mathews";

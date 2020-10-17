@@ -3,6 +3,10 @@ import './stylesheets/NavBar.css';
 
 class NavBar extends React.Component{
 
+    constructor(){
+        super();
+    }
+    
     render(){
         return (
         <nav className='NavBar'>
