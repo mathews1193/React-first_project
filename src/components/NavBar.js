@@ -2,10 +2,6 @@ import React from 'react';
 import './stylesheets/NavBar.css';
 
 class NavBar extends React.Component{
-
-    constructor(){
-        super();
-    }
     
     render(){
         return (

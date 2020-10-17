@@ -5,6 +5,15 @@ class Recipe extends React.Component {
 
     constructor(){
         super();
+        this.state = {
+            imgUrl: "",
+            food:"",
+            category:"",
+            item1:"",
+            item2:"",
+            item3:"",
+            item4:"",
+        }
     }
     render(){
         return(
