@@ -4,11 +4,11 @@
   width:100vw;
 }
 .container-todo{
-  margin-left: 400px;
+  margin-left: 40px;
   margin-top:60px;
   border: 7px solid  #333;
-  height:50vh;
-  width:30vw;
+  height:auto;
+  width:auto;
 }
 .recipe-list{
   display:flex;

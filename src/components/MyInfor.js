@@ -5,22 +5,22 @@ class MyInfor extends React.Component {
 
   constructor(){
     super();
+    this.state = {
+      isLoggedIn:true,
+    }
 }
 
   render(){
+    let result;
+    
+    if (this.state.isLoggedIn === true){
+      result ="in"
+    } else {
+      result = "out"
+    }
     return ( 
            <div className="todo-list">
-              <input type='checkbox'/>
-              <p>Pick Your Protein</p>
-
-              <input type='checkbox'/>
-              <p>Pick Your Veggies</p>
-              
-              <input type='checkbox'/>
-              <p>Save Your Recipes</p>
-              
-              <input type='checkbox'/>
-              <p>Place Your Order</p>
+              <h1>You are currently logged {result}</h1>
           </div>
             )
     }

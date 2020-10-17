@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import './App.css';
 import Recipe from './components/Recipe';
 import RecipeData from './components/RecipeData';
+import MyInfor from './components/MyInfor';
 
 class App extends React.Component {
 
@@ -15,13 +16,12 @@ class App extends React.Component {
     <div>
       <div className="container">
         <NavBar/>
-         {/* <div className="container-todo">
+         {/* <div className="recipe-list">
+            {recipeComponents} </div>*/}
+            <div className="container-todo">
               <MyInfor/> 
-            </div> */}
-          <div className="recipe-list">
-            {recipeComponents}
-
-          </div>
+            </div>
+          
       </div>
         <Footer/>
     </div>
