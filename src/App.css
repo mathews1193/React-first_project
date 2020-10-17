@@ -1,7 +1,7 @@
 .container{
   background: linear-gradient(120deg, #1fc4cf, #ECE3E6);
-  height:100vh;
-  width:100vw;
+  height:100%;
+  width:100%;
 }
 .container-todo{
   margin-left: 40px;
