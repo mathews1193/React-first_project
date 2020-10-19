@@ -7,8 +7,8 @@ class DropDownNav extends React.Component {
             <div class="dropdown">
               <button class="dropbtn">Power</button>
               <div class="dropdown-content">
-                  <a href="#">Profile</a>
-                  <a href="#">Setting</a>
+                  <a>Profile</a>
+                  <a>Setting</a>
                   <a href="#">Log Out</a>
               </div>
           </div>
