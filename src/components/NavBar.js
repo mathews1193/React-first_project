@@ -2,12 +2,13 @@ import React from 'react';
 import DropDownNav from './DropDownNav';
 import './stylesheets/NavBar.css';
 
-function signIn(){
-    console.log("Signed in")
-}
+
 
 class NavBar extends React.Component{
-    
+
+    signIn(){
+    console.log("Signed in");
+}
     render(){
         return (
         <nav className='NavBar'>
@@ -18,7 +19,7 @@ class NavBar extends React.Component{
                 <li className="nav">Orders</li>
                 <li className="nav">Recipes</li>
                 <li className="nav">Contact</li>
-                <button className="btn-signup" onClick={signIn}>Sign Up</button>
+                <button className="btn-signup" onMouseOver={this.signIn}>Sign Up</button>
                 <DropDownNav/>
             </ul>
         </nav>

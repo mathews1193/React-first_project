@@ -7,9 +7,17 @@ class MyInfor extends React.Component {
     super();
     this.state = {
       isLoggedIn:true,
-    }
+  }
+  this.signIn = this.signIn.bind(this)
+  this.signOut = this.signOut.bind(this)
 }
+  signIn(){
+    this.setState({ isLoggedIn:true })
+  }
 
+  signOut(){
+    this.setState({ isLoggedIn:false })
+  }
   render(){
     let result;
     
@@ -20,9 +28,11 @@ class MyInfor extends React.Component {
     }
     return ( 
            <div className="todo-list">
+             <button onClick={this.signIn}>Sign In</button>
+             <button onClick={this.signOut}>Sign Out</button>
               <h2>You are currently logged {result}</h2>
           </div>
             )
     }
-}
+  }
   export default MyInfor
