@@ -1,4 +1,5 @@
 import React from 'react';
+import DropDownNav from './DropDownNav';
 import './stylesheets/NavBar.css';
 
 class NavBar extends React.Component{
@@ -14,6 +15,7 @@ class NavBar extends React.Component{
                 <li className="nav">Recipes</li>
                 <li className="nav">Contact</li>
                 <li className="btn-signup">Sign Up</li>
+                <DropDownNav/>
             </ul>
         </nav>
         )
