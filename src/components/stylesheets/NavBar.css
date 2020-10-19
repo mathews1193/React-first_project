@@ -13,17 +13,24 @@
     color:white;
     font-size: 20px;
 }
-
+.logo{
+    float:left;
+    display:block;
+    padding: 35px;
+}
 .nav{
+    margin-left:20px;
     float:left;
     display:block;
     padding: 35px;
 }
 .btn-signup {
+    color:white;
+    background-color:#333;
     border: 2px solid whitesmoke;
     float:left;
     display:block;
-    margin-top:10px;
+    margin-top:20px;
     margin-left:70px;
     padding: 20px;
 }
