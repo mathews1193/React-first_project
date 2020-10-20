@@ -28,8 +28,8 @@ class MyInfor extends React.Component {
     }
     return ( 
            <div className="todo-list">
-             <button onClick={this.signIn}>Sign In</button>
-             <button onClick={this.signOut}>Sign Out</button>
+             <button className="sign" onClick={this.signIn}>Sign In</button>
+             <button className="sign" onClick={this.signOut}>Sign Out</button>
               <h2>You are currently logged {result}</h2>
           </div>
             )
